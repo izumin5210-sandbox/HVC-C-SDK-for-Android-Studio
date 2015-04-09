@@ -1,1 +1,1 @@
-include ':hvc_c_sdk'
+include ':hvc_c_sdk', ':simpledemo'
