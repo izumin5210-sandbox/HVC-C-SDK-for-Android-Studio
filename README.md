@@ -1,10 +1,9 @@
-# HVC-C SDK and Sample for Android Studio
+# HVC-C SDK for Android Studio
 ## HEADS UP!!
-本アプリケーションはオムロン社の[ヒューマンビジョンコンポBluetooth LEモデル（HVC-C1B)の公式SDK及びサンプルアプリ](http://plus-sensing.omron.co.jp/product/sdk-download.html)をAndroid Studio用に修正したものになります．
+本アプリケーションはオムロン社の[ヒューマンビジョンコンポBluetooth LEモデル（HVC-C1B）](http://plus-sensing.omron.co.jp/egg-project/product/)の
+[公式SDK及びサンプルアプリ](http://plus-sensing.omron.co.jp/product/sdk-download.html)をAndroid Studio向けに修正したものになります．
 
 以下は本家`ReadMe_J.txt`より引用．
-
----
 
 >
 > ```
@@ -61,18 +60,18 @@
 >      HVC-C機能実行部のコードはMainActivity.javaのonPostExecute()コールバックメソッドを
 >      参考にしてください。
 >
->(4) ソースの移植について
+> (4) ソースの移植について
 >   1. omron.HVC パッケージについて
 >        このディレクトリ以下のコードは汎用性を考えて作成しています。
 >        JAVAをコンパイルできる環境であればこのままで使用していただけます。
 >
->  2. AndroidManifest.xml
+>   2. AndroidManifest.xml
 >        マニュフェストの記述はこのファイルを参考にしてください。
 >
 >   3. BleDeviceSearch.java
 >        Bluetoothの初期化・デバイスの検索はこちらのコンストラクタからの一連の
 >       処理を参考にしてください。デバイスの検索にはBluetoothAdapterのstartDiscovery()
->        メソッドを使用しています。
+>       メソッドを使用しています。
 >
 > ※注意事項：
 >      HVC_BLEクラスはnewした後、connect()メソッドで引数に設定されたデバイスと
